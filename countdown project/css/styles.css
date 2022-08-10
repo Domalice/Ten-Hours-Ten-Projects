@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url('../img/hans-ott-K_-sUG3qS2Q-unsplash.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 25% 75%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    color: white;
+    text-shadow: 4px 6px 7px black;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.block {
+    border: 1px solid;
+    text-align: center;
+    font-size: 5rem;
+    margin: 0 1em;
+    padding: .1em;
+    color: white;
+    box-shadow: 10px 8px 5px rgb(0, 0, 0, 0.5);
+    font-weight: bold;
+    
+}
+
+.p {
+    text-align: center;
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1001px) {
+    h1 {
+        font-size: 4.2rem;
+    }
+
+    .block {
+        font-size: 4rem;
+        /* padding: .2em; */;
+    }
+}
+
+@media (max-width: 701px) {
+    h1 {
+        font-size: 3rem;
+        margin-top: 2em;
+    }
+
+    .block {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 501px) {
+    .block {
+        font-size: 2.5rem;
+    }
+}
